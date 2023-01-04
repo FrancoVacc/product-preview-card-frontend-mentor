@@ -1,0 +1,49 @@
+//Variables
+
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $cream;
+}
+
+.container{
+    width: 65%;
+    margin: 10px auto;
+    background-color: $white;
+    border-radius: 5px;
+    overflow:hidden ; 
+    
+    @media(max-width:375px){
+        @import "header-container";
+        @import "description-container";
+
+    }
+
+    @media(min-width:375px){
+        display: flex;
+        height: 300px;
+        width: 400px;
+
+        .header-container{
+           width: 50%;
+           background-image: url('../images/image-product-desktop.jpg');
+            background-size: cover;
+        }
+        @import "description-container";
+        .description-container{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            .boton{
+                width: 100%;
+            }
+        }
+    }
+}

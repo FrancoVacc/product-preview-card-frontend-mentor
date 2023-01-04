@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+.container {
+  width: 65%;
+  margin: 10px auto;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 5px;
+  overflow: hidden;
+}
+@media (max-width: 375px) {
+  .container .header-container header div {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/image-product-mobile.jpg");
+    background-size: cover;
+  }
+  .container .description-container article {
+    padding: 10px 10px 0;
+  }
+  .container .description-container article p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.5rem;
+    letter-spacing: 4px;
+    color: hsl(228deg, 12%, 48%);
+    margin: 6px 0;
+    padding: 4px;
+  }
+  .container .description-container article h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: hsl(212deg, 21%, 14%);
+  }
+  .container .description-container article .description {
+    letter-spacing: normal;
+    font-size: 0.65rem;
+  }
+  .container .description-container section {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+  }
+  .container .description-container section h3 {
+    font-family: "Fraunces", serif;
+    font-size: 1.3rem;
+    color: hsl(158deg, 36%, 37%);
+    margin-right: 10px;
+  }
+  .container .description-container section p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.56rem;
+    text-decoration: line-through;
+    color: hsl(228deg, 12%, 48%);
+  }
+  .container .description-container .boton {
+    margin: 10px;
+    text-align: center;
+  }
+  .container .description-container .boton button {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(158deg, 36%, 37%);
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .container .description-container .boton button:hover {
+    background-color: rgb(26, 64, 49);
+  }
+  .container .description-container .boton button p {
+    color: hsl(0deg, 0%, 100%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+  }
+  .container .description-container .boton button img {
+    width: 10px;
+    margin-right: 5px;
+  }
+}
+@media (min-width: 375px) {
+  .container {
+    display: flex;
+    height: 300px;
+    width: 400px;
+  }
+  .container .header-container {
+    width: 50%;
+    background-image: url("../images/image-product-desktop.jpg");
+    background-size: cover;
+  }
+  .container .description-container article {
+    padding: 10px 10px 0;
+  }
+  .container .description-container article p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.5rem;
+    letter-spacing: 4px;
+    color: hsl(228deg, 12%, 48%);
+    margin: 6px 0;
+    padding: 4px;
+  }
+  .container .description-container article h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: hsl(212deg, 21%, 14%);
+  }
+  .container .description-container article .description {
+    letter-spacing: normal;
+    font-size: 0.65rem;
+  }
+  .container .description-container section {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+  }
+  .container .description-container section h3 {
+    font-family: "Fraunces", serif;
+    font-size: 1.3rem;
+    color: hsl(158deg, 36%, 37%);
+    margin-right: 10px;
+  }
+  .container .description-container section p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.56rem;
+    text-decoration: line-through;
+    color: hsl(228deg, 12%, 48%);
+  }
+  .container .description-container .boton {
+    margin: 10px;
+    text-align: center;
+  }
+  .container .description-container .boton button {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(158deg, 36%, 37%);
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .container .description-container .boton button:hover {
+    background-color: rgb(26, 64, 49);
+  }
+  .container .description-container .boton button p {
+    color: hsl(0deg, 0%, 100%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+  }
+  .container .description-container .boton button img {
+    width: 10px;
+    margin-right: 5px;
+  }
+  .container .description-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container .description-container .boton {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

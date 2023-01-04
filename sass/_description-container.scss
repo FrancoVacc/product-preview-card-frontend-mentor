@@ -1,0 +1,71 @@
+.description-container{
+
+    article{
+        padding: 10px 10px 0;
+        p{
+            font-family: $monserrat-font;
+            font-weight: 500;
+            font-size: 0.5rem;
+            letter-spacing: 4px;
+            color: $dark-grayish-blue;
+            margin: 6px 0;
+            padding: 4px;
+        }
+        h2{
+            font-family: $frances-font;
+            font-weight: 700;
+            color: $very-dark-blue;
+        }
+        .description{
+            letter-spacing: normal;
+            font-size: 0.65rem;
+        }
+    }
+    section{
+        display: flex;
+        padding: 0 10px;
+        align-items: center;
+        h3{
+            font-family: $frances-font;
+            font-size: 1.3rem;
+            color: $dark-cyan;
+            margin-right: 10px;
+        }
+        p{
+            font-family: $monserrat-font;
+            font-weight: 500;
+            font-size: 0.56rem;
+            text-decoration: line-through;
+            color: $dark-grayish-blue;
+        }
+
+    }
+    .boton{
+        margin: 10px;
+        text-align: center;
+        button{
+            display: flex;
+            justify-content: center;
+            background-color: $dark-cyan;
+            width: 100%;
+            padding: 10px 0;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover{
+                background-color: $very-dark-cyan;
+            }
+            p{
+                color: $white;
+                font-family: $monserrat-font;
+                font-size: 10px;
+            }
+            img{
+                width: 10px;
+                margin-right: 5px;
+            }
+
+        }
+    }
+}
